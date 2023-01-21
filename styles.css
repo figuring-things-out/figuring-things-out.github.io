@@ -88,10 +88,11 @@ body {
     width: 350px;
     height: 350px;
     position: absolute;
-    margin-top: -135px;
+    margin-top: -147px;
+    border-radius: 7px;
   }
 
-  .cover:hover{
+  .flex-item:hover .cover{
     opacity: 0;
     display: none;
   }
