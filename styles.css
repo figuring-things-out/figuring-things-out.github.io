@@ -190,3 +190,59 @@ body {
     width: 50px;
     padding: 5px;
   }
+
+  @media screen and (max-width: 900px) {
+    .nav-bar {
+        flex-direction: column;
+        height: 75px;
+    }
+
+    .nav-bar h1 {
+        font-size: 1.3em;
+        width: 90%;
+        height: 30px;
+        text-underline-offset: 5px;
+        margin-top: 5px auto;
+    }
+
+    .title-subtext {
+        margin: 0px auto;
+    }
+
+    .hover-note {
+        margin-top: 85px;
+        margin-bottom: 0px;
+        background: #D9D9D9;
+        width: 200px;
+        padding: 10px 5px;
+        font-size: 0.8em;
+    }
+
+    .flex-item {
+        margin-top: 50px;
+        
+        height: 650px;
+        
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .item-title {
+        font-size: 1em;
+        padding: 5px;
+        height: 40px;   
+    }
+
+    .description {
+        margin-top: 5px;
+        justify-self: center;
+        height: 240px;
+    }
+
+    .footer-items {
+        font-size: 0.8em;
+    }
+    
+  }
