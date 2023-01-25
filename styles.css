@@ -213,6 +213,10 @@ body {
         display: none;
     }
 
+    .flex-container {
+      margin-top: 75px;
+    }
+
     .flex-item {
         margin-top: 50px;
         
